@@ -1,0 +1,292 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Nimbus Sans L";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+.nleft{
+    display: flex;
+    gap: 40px;
+}
+#centertag{
+    position: absolute;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.full{
+    /* background-color: red; */
+    margin-top: 9vw;
+    width: 100%;
+    padding: 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 100px; */
+}
+.full .sustain{
+    display: flex;
+    flex-direction: column;
+    padding: 12vw 0vw;
+}
+.sustain h2{
+    font-size: 20px;
+}
+.sustain p{
+    font-size: 16px;
+    opacity: .5;
+    padding: 10px 0px;
+}
+.sustain .sustainimg{
+    overflow: hidden;
+    position: relative;
+    width: 15vw;
+    height: 20vw;
+}
+.sustainimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.ephemeral{
+    position: relative;
+    width: 33vw;
+    height: 40vw;
+}
+.ephemeral .headings{
+    font-size: 3vw;
+    position: absolute;
+    top: -22%;
+    left: -12%;
+    line-height: .9;
+    letter-spacing: -1px;
+}
+.ephemeral p{
+    position: absolute;
+    top: 103%;
+    font-size: 1.9vw;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: rgb(39, 38, 38);
+}
+.ephemeral img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.visit{
+    width: 14vw;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 51px;
+}
+.vcircle{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 1px solid #615b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vcircle i{
+    color:  #615b5b;
+}
+.visit h5{
+    opacity: .6;
+}
+.motive{
+    margin-top: 8vw;
+    padding: 0vw 10vw;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.motive .our-motive{
+    font-size: .9vw;
+    font-weight: lighter;
+    opacity: .6;
+}
+.motive .para{
+    display: flex;
+    text-align: right;
+    width: 85%;
+    font-size: 1.7vw;
+    padding-top: 50px;
+}
+.motive .para h3{
+    font-weight: lighter;
+}
+.motive .para #one{
+    display: inline-block;
+    height: 38px;
+    width: 60px;
+    border-radius: 100px;
+    background-image: url(./bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    margin-bottom: -10px;
+}
+.motive .para #two{
+    display: inline-block;
+    height: 42px;
+    width: 80px;
+    border-radius: 100px;
+    background-image: url(./shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+    margin-bottom: -10px;
+}
+.motive .para #three{
+    display: inline-block;
+    height: 38px;
+    width: 60px;
+    border-radius: 100px;
+    background-image: url(./grass.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+    margin-bottom: -10px;
+}
+.synergy{
+    margin-top: 8vw;
+    padding: 0vw 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+.synergy .sea{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 16vw;
+    height: 35vw;
+}
+.synergy .sea h3{
+    font-size: 1.9vw;
+    letter-spacing: -1.5px;
+    font-weight: lighter;
+}
+.synergy .sea p{
+    color: rgb(34, 32, 32);
+    line-height: 1.2;
+}
+.synergy .sea .seaimg{
+    height: 25vw;
+}
+.synergy .sea .seaimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.cloud{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 10px;
+    width: 25vw;
+    height: 51vw;
+}
+.cloud .cloudimg{
+    height: 48vw;
+}
+.cloud .cloudimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.synergy .cloud h3{
+    font-size: 1.9vw;
+    letter-spacing: -1.5px;
+    font-weight: lighter;
+}
+.synergy .cloud p{
+    color: rgb(34, 32, 32);
+    line-height: 1.2;
+    padding-left: 50px;
+}
+.bottles{
+    width: 100%;
+    height: 100vh;
+    padding-top: 6vw;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.bottles .bottle{
+    width: 70%;
+    height: 80%;
+}
+.bottles .bottle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bottles .bottletext h1{
+    font-size: 2vw;
+    font-weight: lighter;
+    line-height: 1;
+}
+.bottles .bottletext p{
+    padding-top: 18px;
+    color: rgb(34, 32, 32);
+    width: 60%;
+    line-height: 1;
+}
+.last{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3vw;
+    overflow: hidden;
+    position: relative;
+}
+.last .video{
+    width: 100%;
+    scale: 1.2;
+    opacity: 0;
+}
+.lasttext{
+    z-index: 999;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.last h2{
+    font-size: 2.1vw;
+    font-weight: lighter;
+    padding-bottom: 1vw;
+}
+.last button{
+    padding: .8vw 1.4vw;
+    font-size: 1vw;
+    border-radius: 100px;
+    border: none;
+    background-color: rgb(221, 218, 218);
+    color: rgb(58, 57, 57);
+}
