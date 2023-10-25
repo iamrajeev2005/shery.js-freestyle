@@ -47,7 +47,7 @@ Shery.imageEffect(".bottle",{
 document.querySelector(".lasttext button").addEventListener("mouseover",function(){
     gsap.to(".last .video",{
         opacity:1,
-        duration:1,
+        duration:6,
         ease: Power4
     });
 });
@@ -55,7 +55,12 @@ document.querySelector(".lasttext button").addEventListener("mouseover",function
 document.querySelector(".lasttext button").addEventListener("mouseleave",function(){
     gsap.to(".last .video",{
         opacity:0,
-        duration:1,
+        duration:5,
         ease: Power4
     });
+});
+
+var preloader = document.querySelector(".preloader");
+window.addEventListener("load", function(){
+    preloader.style.display = "none"
 });

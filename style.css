@@ -8,6 +8,14 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.preloader{
+    height: 100%;
+    width: 100%;
+    background: #fff url(./Skateboarding.gif) no-repeat center center;
+    background-size: 6%;
+    position: fixed;
+    z-index: 10000;
+}
 .main{
     width: 100%;
 }
